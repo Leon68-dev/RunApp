@@ -1,20 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Security.Principal;
 using System.Security;
 using System.Diagnostics;
 
-namespace RunApp
+namespace RunAsAdm
 {
     class Program
     {
         static void Main(string[] args)
         {
-            SecureString userpass = new SecureString();
-                
+            Console.WriteLine("Run as administrator");
             Console.WriteLine("Run this program with 3 params");
             Console.WriteLine("   1 - The Name of a local adminstrator (adminstrator)");
             Console.WriteLine("   2 - The Password of the local adminstrator");
@@ -27,6 +21,8 @@ namespace RunApp
                 string ps = args[1];
 
                 char[] charArr = ps.ToCharArray();
+
+                SecureString userpass = new SecureString();
 
                 foreach (var item in charArr)
                     userpass.AppendChar(item);
