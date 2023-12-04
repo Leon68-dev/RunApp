@@ -1,0 +1,10 @@
+*.suo
+/.gitignore
+/RunAsAdm/bin/Debug
+/RunAsAdm/obj/Debug
+/.vs/ProjectEvaluation/*.v2
+/.vs/RunAsAdm/DesignTimeBuild/.dtbcache.v2
+/.vs/RunAsAdm/FileContentIndex/2e0ca180-88f4-4b79-ba38-84db402d4df7.vsidx
+/.vs/RunAsAdm/FileContentIndex/f14b4538-4179-4f90-83cd-c878c9935ad5.vsidx
+/.vs/RunAsAdm/FileContentIndex/read.lock
+/.vs/RunAsAdm/v17/.futdcache.v1
